@@ -7,20 +7,24 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
+
 *{
     margin: 0px;
     padding: 0px;
-}   
+} 
+
 html, body{
     min-height: 100vh;
     background-color: darkgrey;
     font-family: var(--fonte1);
 }
+
 header{
     background-color: black;
     text-align: center;
     padding: 50px 0px 50px 0px;
 }
+
 header h1{
     color: white;
     text-align: center;
@@ -33,6 +37,7 @@ header p{
     color: white;
     display: inline;
 }
+
 a{
     color: white;
     text-align: center;
@@ -63,7 +68,7 @@ section.normal{
 section.imagem{
     background-color: rgb(36, 36, 36);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -74,15 +79,17 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.342);
     text-shadow: 1px 1px 0px black;
 }
+
 section#img01{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-   
 }
+
 section#img02{
     background-image: url(imagens/background002.jpg);
     background-position: left right;
 }
+
 footer{
     text-align: center;
     background-color: black;
